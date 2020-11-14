@@ -7,7 +7,7 @@
 
     {
         public Customer CurrentCustomer;
-        public DbDataContext Db = new DbDataContext();  
+        public DbDataContext Db = new DbDataContext();
 
         protected override void OnActionExecuting(ActionExecutingContext filterContext)
         {
